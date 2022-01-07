@@ -1,0 +1,39 @@
+[
+  {
+    "Id": 1,
+    "Name": "Kirill",
+    "Surname": "Krivikhin",
+    "Age": 30,
+    "Department": "Otdel 2",
+    "Salary": 30000,
+    "ProjectCount": 2
+  }
+  ,
+  {
+    "Id": 2,
+    "Name": "Liza",
+    "Surname": "Titova",
+    "Age": 27,
+    "Department": "Otdel 1",
+    "Salary": 40000,
+    "ProjectCount": 3
+  },
+  {
+    "Id": 3,
+    "Name": "Misha",
+    "Surname": "Glushkov",
+    "Age": 32,
+    "Department": "Otdel 4",
+    "Salary": 100000,
+    "ProjectCount": 10
+  },
+  {
+    "Id": 4,
+    "Name": "Pukpuk",
+    "Surname": "Pukov",
+    "Age": 80,
+    "Department": "Otdel 3",
+    "Salary": 10000,
+    "ProjectCount": 12
+  }
+]

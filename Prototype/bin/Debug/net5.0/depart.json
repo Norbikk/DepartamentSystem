@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "Otdel 1",
+    "DateOfCreation": "2022-01-07T19:02:01.6108484+03:00",
+    "CountPersons": 1
+  }
+  ,
+  {
+    "Id": 2,
+    "Name": "Otdel 2",
+    "DateOfCreation": "2022-01-07T19:02:06.3392303+03:00",
+    "CountPersons": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Otdel 4",
+    "DateOfCreation": "2022-01-07T19:58:24.1889688+03:00",
+    "CountPersons": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Otdel 3",
+    "DateOfCreation": "2022-01-07T19:58:55.0209878+03:00",
+    "CountPersons": 0
+  }
+]
