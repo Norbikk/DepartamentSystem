@@ -9,9 +9,15 @@ namespace Prototype
         public DateTime DateOfCreation { get; set; }
 
         public int CountPersons { get; set; }
-        // public int _maxCountPersons = 1_000_000;
 
-        public Depart(int id, string name, DateTime dateOfCreation,int countPersons)
+        /// <summary>
+        /// Конструктор класса
+        /// </summary>
+        /// <param name="id">ID департамента</param>
+        /// <param name="name">Имя</param>
+        /// <param name="dateOfCreation">Дата создания</param>
+        /// <param name="countPersons">Кол-во персонов в департаменте</param>
+        public Depart(int id, string name, DateTime dateOfCreation, int countPersons)
         {
             Id = id;
             Name = name;
@@ -20,16 +26,6 @@ namespace Prototype
         }
 
         public override string ToString() =>
-            $"{Id}#{Name}#{DateOfCreation}#{CountPersons}";
+            $"№{Id} Название:{Name} Дата создания:{DateOfCreation} Кол-во сотрудников:{CountPersons}";
     }
-
-   /*
-    public struct DepartData
-    {
-        public int Id;
-        public string Name;
-        public DateTime DateOfCreation;
-        public int CountPersons;
-    }
-    */
 }

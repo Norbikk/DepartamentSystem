@@ -1,15 +1,25 @@
 namespace Prototype
 {
-    public class Person
+    class Person
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Surname{ get; set; }
-        public int Age{ get; set; }
-        public string Department{ get; set; }
-        public int Salary{ get; set; }
-        public int ProjectCount{ get; set; }
+        public string Surname { get; set; }
+        public int Age { get; set; }
+        public string Department { get; set; }
+        public int Salary { get; set; }
+        public int ProjectCount { get; set; }
 
+        /// <summary>
+        /// Конструктор класса Person
+        /// </summary>
+        /// <param name="id">ID</param>
+        /// <param name="name">Имя</param>
+        /// <param name="surname">Фамилия</param>
+        /// <param name="age">Кол-во лет</param>
+        /// <param name="department">Наименование департамента</param>
+        /// <param name="salary">Зарплата</param>
+        /// <param name="projectCount">Кол-во проектов</param>
         public Person(int id, string name, string surname, int age, string department, int salary, int projectCount)
         {
             Id = id;
@@ -20,36 +30,9 @@ namespace Prototype
             Salary = salary;
             ProjectCount = projectCount;
         }
-       
-       
-        /*public Person(PersonData data)
-        {
-           // Id = data.Id;
-            Name = data.Name;
-            Surname = data.Surname;
-            Age = data.Age;
-            Department = data.Department;
-            Salary = data.Salary;
-            ProjectCount = data.ProjectCount;
-        }
-*/
-
-
+        
         public override string ToString() =>
-            $"{Id}#{Name}#{Surname}#{Age}#{Department}#{Salary}#{ProjectCount}";
+            $"№{Id}Имя:{Name} Фамилия:{Surname} Возраст:{Age} Отдел:{Department} Зарплата:{Salary} Кол-во проектов:{ProjectCount}";
     }
 
-    
-   /*
-    public struct PersonData
-    {
-        //public int Id;
-        public string Name;
-        public string Surname;
-        public int Age;
-        public string Department;
-        public int Salary;
-        public int ProjectCount;
-    }
-    */
 }
